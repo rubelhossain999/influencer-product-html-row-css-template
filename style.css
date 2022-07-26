@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* Header Style */
+header {
+    border-bottom: 1px solid #e02c6d;
+    box-shadow: 0 0 30px 0 #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+}
+.header-right-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search {
+    margin-right: 15px;
+}
+.menu ul li a {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #3A3A3A;
+    text-decoration: none;
+}
+.logo img {
+    width: 60%;
+}
+/* Banner Style */
+.banner {
+    display: flex;
+    align-items: center;
+    margin-top: 135px;
+    z-index: 999;
+}
+.banner-right-side h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    color: #3A3A3A;
+}
+.banner-right-side p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+}
+button.btn {
+    padding: 10px 23px;
+    font-size: 20px;
+    border: none;
+    background: #e02c6d;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 12px 3px #bfbfbf96;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.banner-left-side img {
+    width: 100%;
+    margin: 32px 0;
+    background: #ffeef4;
+    border-radius: 50%;
+}
+.banner-left-side {
+    border: 1px solid #d5c4ca;
+    border-radius: 50%;
+    margin: 40px 15px;
+    padding: 25px 50px;
+}
+/* Conpany logo Style */
+.c-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-logo span a img {
+    width: 100%;
+}
+.c-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0px;
+    border-top: 1px solid #ccc;
+    padding: 14px 0;
+    border-bottom: 1px solid #ccc;
+}
+/* Product Style */
+h2.p-title {
+    margin: 35px 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.single-product img {
+    width: 100%;
+}
+
+.single-product {
+    background: #fff;
+    box-shadow: 0 0 15px 0px #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+.single-product h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 40px;
+    color: #18191F;
+}
+.single-product p {
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 10px;
+}
+.ratting i {
+    color: #e02c6d;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+button.p-btn {
+    background: #e23875;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
