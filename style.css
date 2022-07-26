@@ -173,3 +173,34 @@ button.p-btn {
     text-transform: uppercase;
     cursor: pointer;
 }
+.see-more-btn {
+    text-align: center !important;
+    margin-bottom: 15px;
+}
+.see-more-btn a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #e23875;
+    font-weight: 600;
+}
+/* Feutered Product */
+.featured {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 123px 0;
+}
+.fea-left h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.fea-left p {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
