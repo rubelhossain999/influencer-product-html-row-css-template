@@ -204,3 +204,43 @@ button.p-btn {
     line-height: 28px;
     color: #6C6C6C;
 }
+/* Footer style */
+footer {
+    background: #0A0826;
+    padding: 50px 0;
+    text-align: center;
+}
+.details h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.details p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+.details p a {
+    color: #e02c6d;
+    font-stretch: condensed;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+.details span {
+    color: #fff;
+    font-size: 14px;
+}
+.f-social i {
+    color: #0a0826;
+    font-size: 14px;
+    background: #ddd;
+    padding: 10px 13px;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
